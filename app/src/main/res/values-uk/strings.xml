@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Eraser for Gmail</string>
+    <string name="app_name_full">All Message Eraser for Gmail</string>
+
+    <string name="action_scanning">Сканування</string>
+
+    <string name="alert_important_message">Важливе повідомлення!</string>
+
+    <string name="warning_message_one">
+        Натисніть OK і ми очистимо Ваш поштовий ящик Gmail.\n
+        Тисніть "Скасування" якщо не розумієте її призначення або боїтеся втратити важливі дані.
+    </string>
+
+    <string name="warning_message_seccond">
+        Ми готові приступити, тисніть ТАК і почнемо очищення даних
+    </string>
+    <string name="alert_seccond_positive_text">Так, Поїхали!</string>
+    <string name="alert_one_positive_text">Так, починаємо очистку!</string>
+    <string name="do_not_show_warning">Do not show warning</string>
+
+    <string name="mailbox_empty">ПОШТОВА СКРИНЬКА ПОРОЖНЯ\n%1$s</string>
+    <string name="pref_title_labels">Delete tagged messages</string>
+    <string name="pref_category_labels">Delete messages with a label</string>
+</resources>

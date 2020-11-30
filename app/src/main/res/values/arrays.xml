@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="label_entries">
+        <item>SPAM</item>
+        <item>DRAFT</item>
+
+        <item>INBOX</item>
+        <item>UNREAD, IMPORTANT, CATEGORY_UPDATES, INBOX</item>
+        <item>UNREAD, CATEGORY_FORUMS, INBOX</item>
+        <item>CATEGORY_PROMOTIONS, UNREAD, INBOX</item>
+        <item>CATEGORY_SOCIAL, INBOX</item>
+        <item>CATEGORY_PERSONAL, INBOX</item>
+        <item>IMPORTANT, SENT, INBOX</item>
+        <item>UNREAD, CATEGORY_SOCIAL, INBOX</item>
+        <item>CATEGORY_PROMOTIONS, INBOX</item>
+        <item>UNREAD, IMPORTANT, CATEGORY_PERSONAL, INBOX</item>
+        <item>IMPORTANT, CATEGORY_UPDATES, INBOX</item>
+        <item>SENT</item>
+        <item>UNREAD, CATEGORY_UPDATES, INBOX</item>
+        <item>CATEGORY_UPDATES, INBOX</item>
+        <item>CATEGORY_PROMOTIONS, UNREAD, IMPORTANT, INBOX</item>
+        <item>UNREAD, CATEGORY_FORUMS, SENT, INBOX</item>
+        <item>IMPORTANT, CATEGORY_PERSONAL, INBOX</item>
+    </string-array>
+
+    <string-array name="label_values">
+        <item>SPAM</item>
+        <item>DRAFT</item>
+
+        <item>INBOX</item>
+        <item>UNREAD|IMPORTANT|CATEGORY_UPDATES|INBOX</item>
+        <item>UNREAD|CATEGORY_FORUMS|INBOX</item>
+        <item>CATEGORY_PROMOTIONS|UNREAD|INBOX</item>
+        <item>CATEGORY_SOCIAL|INBOX</item>
+        <item>CATEGORY_PERSONAL|INBOX</item>
+        <item>IMPORTANT|SENT|INBOX</item>
+        <item>UNREAD|CATEGORY_SOCIAL|INBOX</item>
+        <item>CATEGORY_PROMOTIONS|INBOX</item>
+        <item>UNREAD|IMPORTANT|CATEGORY_PERSONAL|INBOX</item>
+        <item>IMPORTANT|CATEGORY_UPDATES|INBOX</item>
+        <item>SENT</item>
+        <item>UNREAD|CATEGORY_UPDATES|INBOX</item>
+        <item>CATEGORY_UPDATES|INBOX</item>
+        <item>CATEGORY_PROMOTIONS|UNREAD|IMPORTANT|INBOX</item>
+        <item>UNREAD|CATEGORY_FORUMS|SENT|INBOX</item>
+        <item>IMPORTANT|CATEGORY_PERSONAL|INBOX</item>
+    </string-array>
+</resources>

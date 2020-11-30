@@ -1,0 +1,87 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--    android:summary="@string/pref_category_labels"-->
+    <PreferenceCategory
+        android:key="pref_category_labels"
+        android:title="@string/pref_category_labels">
+
+        <!--        <ListPreference-->
+        <!--            android:entries="@array/lang_entries"-->
+        <!--            android:entryValues="@array/lang_values"-->
+        <!--            android:key="pref_key_lang"-->
+        <!--            android:summary="(ru, en)"-->
+        <!--            android:title="@string/pref_title_lang" />-->
+
+
+        <!--        <ListPreference-->
+        <!--            android:entries="@array/label_entries"-->
+        <!--            android:entryValues="@array/label_values"-->
+        <!--            android:key="pref_key_lang"-->
+        <!--            android:summary="(ru, en)"-->
+        <!--            android:title="string/pref_title_lang" />-->
+
+        <MultiSelectListPreference
+            android:defaultValue="@array/pref_default_selected_labels"
+            android:entries="@array/label_entries"
+            android:entryValues="@array/label_values"
+            android:icon="@drawable/ic_local_offer_24px"
+            android:key="__pref_key_label"
+            android:summary="[SPAM]"
+            android:title="@string/pref_title_labels" />
+
+    </PreferenceCategory>
+
+    <!-- NonE       <Preference-->
+    <!-- NonE           android:key="key_contributors"-->
+    <!-- NonE           android:summary="Walhalla Dynamics"-->
+    <!-- NonE           android:title="Contributors" />-->
+
+    <!--    </PreferenceCategory>-->
+
+    <Preference
+        android:icon="@drawable/ic_info_outline_black_24dp"
+        android:key="key_pref_about"
+        android:summary="@string/app_name"
+        android:title="@string/action_about" />
+
+    <PreferenceCategory android:title="Other">
+
+        <Preference
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:key="key_pref_version"
+            android:summary="@null"
+            android:title="@string/pref_version_title" />
+
+        <Preference
+            android:icon="@drawable/ic_baseline_developer_mode_24"
+            android:key="pref_developer_summary"
+            android:summary="@string/pref_developer_title"
+            android:title="@string/pref_developer_title" />
+
+        <Preference
+            android:icon="@drawable/ic_share_black_24dp"
+            android:key="pref_share_key"
+            android:summary="@string/pref_share_summary"
+            android:title="@string/pref_share_title" />
+
+        <Preference
+            android:icon="@drawable/ic_rate_review_black_24dp"
+            android:key="pref_rate_review_key"
+            android:summary="@string/pref_rate_review_summary"
+            android:title="@string/pref_rate_review_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+        <Preference
+            android:icon="@drawable/ic_security_black_24dp"
+            android:key="pref_privacy_policy"
+            android:summary="@string/action_privacy_policy"
+            android:title="@string/action_privacy_policy" />
+
+        <Preference
+            android:icon="@drawable/ic_apps_black_24dp"
+            android:key="key_more"
+            android:summary="Google Play"
+            android:title="@string/action_discover_more_app" />
+    </PreferenceCategory>
+</PreferenceScreen>

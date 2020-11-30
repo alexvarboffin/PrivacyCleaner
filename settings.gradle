@@ -1,0 +1,7 @@
+include ':app'//, ':desktop'
+
+include(':threader')
+project(':threader').projectDir = new File('../sdk\\android\\multithreader\\threader')
+
+include ':ui'
+project(':ui').projectDir = new File('../sdk\\android\\UI\\ui\\')

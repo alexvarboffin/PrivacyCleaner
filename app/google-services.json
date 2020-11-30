@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "630432821054",
+    "firebase_url": "https://privacycleaner-fd015.firebaseio.com",
+    "project_id": "privacycleaner-fd015",
+    "storage_bucket": "privacycleaner-fd015.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630432821054:android:f5b3808eca3284a3",
+        "android_client_info": {
+          "package_name": "com.walhalla.privacycleaner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630432821054-9rcscc3hcb8tldc7auftrnl246ou7r0d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.walhalla.privacycleaner",
+            "certificate_hash": "e92abb802605fe9e12a4e0c12dd3aeafc7c71059"
+          }
+        },
+        {
+          "client_id": "630432821054-s4iualveainfakfqho8iga93ko1ejs55.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2HtQT-4wu88QFAOPdw6bfQefxPZWu0R4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630432821054-s4iualveainfakfqho8iga93ko1ejs55.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

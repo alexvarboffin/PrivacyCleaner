@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="AppTheme.Launcher" parent="AppTheme.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@drawable/window_gradient</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.Loader" parent="@style/AVLoadingIndicatorView">
+        <item name="indicatorColor">@color/indicatorColor</item>
+        <!--        <item name="indicatorName">BallScaleMultipleIndicator</item>-->
+
+        <item name="indicatorName">BallScaleIndicator</item>
+
+
+    </style>
+
+    <!--    android:textAppearance="?android:textAppearanceSmall"-->
+    <!--    android:textColor="#FFFFFF"-->
+    <style name="AppTheme.Files" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/oxygen_mono</item>
+    </style>
+
+    <style name="AppTheme.Scanning" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/oxygen_mono</item>
+    </style>
+
+    <style name="AppTheme.H1" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <!--        <item name="android:textAllCaps">true</item>-->
+        <item name="android:fontFamily">@font/oxygen_mono</item>
+    </style>
+
+    <style name="AppTheme.tText" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/oxygen_mono</item>
+        <item name="android:textColor">#242121</item>
+<!--        <item name="android:textSize">14sp</item>-->
+    </style>
+    <!--    android:textAppearance="?android:textAppearanceLarge"-->
+</resources>

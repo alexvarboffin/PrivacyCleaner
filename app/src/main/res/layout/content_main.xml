@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="6"
+            android:background="@drawable/gradient_main"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <com.walhalla.privacycleaner.ui.SquareRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="7"
+                android:padding="@dimen/_10sdp"
+                tools:background="@android:color/black">
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@null"
+                    android:src="@drawable/back"
+                    tools:src="@mipmap/ic_launcher" />
+
+
+                <com.wang.avi.AVLoadingIndicatorView
+                    android:id="@+id/scan1"
+                    style="@style/AppTheme.Loader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/_60sdp"
+                    android:paddingLeft="@dimen/_60sdp"
+                    android:paddingTop="@dimen/_60sdp"
+                    android:paddingEnd="0dp"
+                    android:paddingRight="0dp" />
+
+                <com.wang.avi.AVLoadingIndicatorView
+                    android:id="@+id/scan2"
+                    style="@style/AppTheme.Loader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/dp150"
+                    android:paddingLeft="@dimen/dp150"
+                    android:paddingTop="@dimen/_170sdp"
+                    android:paddingEnd="0dp"
+                    android:paddingRight="0dp" />
+
+                <com.wang.avi.AVLoadingIndicatorView
+                    android:id="@+id/scan3"
+                    style="@style/AppTheme.Loader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/_90sdp"
+                    android:paddingLeft="@dimen/_90sdp"
+                    android:paddingTop="@dimen/_160sdp"
+                    android:paddingEnd="0dp"
+                    android:paddingRight="0dp" />
+
+                <com.wang.avi.AVLoadingIndicatorView
+                    android:id="@+id/scan4"
+                    style="@style/AppTheme.Loader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/_170sdp"
+                    android:paddingLeft="@dimen/_170sdp"
+                    android:paddingTop="@dimen/_60sdp"
+                    android:paddingEnd="0dp"
+                    android:paddingRight="0dp" />
+
+                <com.wang.avi.AVLoadingIndicatorView
+                    android:id="@+id/scan5"
+                    style="@style/AppTheme.Loader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/_120sdp"
+                    android:paddingLeft="@dimen/_120sdp"
+                    android:paddingTop="@dimen/_60sdp"
+                    android:paddingEnd="0dp"
+                    android:paddingRight="0dp" />
+
+                <com.wang.avi.AVLoadingIndicatorView
+                    android:id="@+id/scan6"
+                    style="@style/AppTheme.Loader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/_130sdp"
+                    android:paddingLeft="@dimen/_130sdp"
+                    android:paddingTop="@dimen/_170sdp"
+                    android:paddingEnd="0dp"
+                    android:paddingRight="0dp" />
+
+                <com.skyfishjy.library.RippleBackground
+                    android:id="@+id/contentMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:rb_color="#24D149"
+                    app:rb_duration="3000"
+                    app:rb_radius="22dp"
+                    app:rb_rippleAmount="4"
+                    app:rb_scale="6">
+
+                    <ImageView
+                        android:id="@+id/centerImage"
+                        android:layout_width="@dimen/_90sdp"
+                        android:layout_height="@dimen/_90sdp"
+                        android:layout_centerInParent="true"
+                        android:clickable="true"
+                        android:contentDescription="@null"
+                        android:focusable="true" />
+                </com.skyfishjy.library.RippleBackground>
+
+                <ImageView
+                    android:id="@+id/front"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@null"
+                    android:src="@drawable/upper" />
+
+            </com.walhalla.privacycleaner.ui.SquareRelativeLayout>
+            <!--            android:background="@android:color/black"-->
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="@dimen/_25sdp"
+
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:layout_marginEnd="@dimen/_25sdp"
+
+                android:layout_marginRight="@dimen/_25sdp"
+                android:layout_weight="2"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/scanning"
+                    style="@style/AppTheme.Scanning"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    tools:text="@string/action_scanning" />
+
+                <com.github.ybq.android.spinkit.SpinKitView
+                    android:id="@+id/spin_kit"
+                    style="@style/SpinKitView.Large.ThreeBounce"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_toRightOf="@+id/scanning"
+                    android:paddingLeft="0dp"
+                    android:paddingTop="@dimen/_7sdp"
+                    app:SpinKit_Color="#FFFFFF" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/files"
+                style="@style/AppTheme.Files"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="3.5"
+            android:background="@drawable/gradient_lite">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#EAEAEA"
+                android:foregroundGravity="center"
+                android:scrollbars="vertical"
+                tools:listitem="@layout/item_recycler_message" />
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/ic_brush_black_24dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

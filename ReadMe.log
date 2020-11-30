@@ -1,0 +1,9 @@
+GoogleAuthException ServiceDisabled
+===================================
+privacycleaner-fd015
+
+Так как программа новая, то её должен одобрить Google - после проверки безопасности.
+Пока этого не произошло, и программе разрешено до 100 пользователей Gmail, не больше. Вот мы как раз сегодня достигли этих 100, и дальше не пускает.
+
+https://www.securitylab.ru/news/495829.php
+Batch deletion of messages by tags (TRASH, INBOX etc). Without sending and reading messages
